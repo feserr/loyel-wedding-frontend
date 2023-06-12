@@ -1,0 +1,25 @@
+.welcome-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 249 247 / var(--tw-bg-opacity));
+}
+
+.hero .title {
+  font-family: 'Allura', 'Georgia', serif, 'Rouge Script', sans-serif;
+  color: #8eab8e;
+  font-weight: 700;
+  font-size: 5rem;
+  padding-bottom: 5px;
+  /* color: whitesmoke; */
+}
+
+.hero .subtitle {
+  padding: 35px;
+  /* color: whitesmoke; */
+  font-size: 1.3rem;
+}
+
+@media (max-width: 599px) {
+  .hero .title {
+    font-size: 3rem;
+  }
+}

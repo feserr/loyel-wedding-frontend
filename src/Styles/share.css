@@ -1,0 +1,32 @@
+.share-section {
+  /* background-image: url(../image/photo_mock.png); */
+  background-position: bottom -30px center;
+  background-repeat: no-repeat;
+  background-size: initial;
+}
+
+.instagram-section {
+  border-bottom: 1px solid #e6e9ea;
+}
+
+.instagram-section img {
+  width: 25%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 399px) {
+  .instagram-section img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) and (orientation:landscape) {
+  .instagram-section img {
+    width: 50%;
+  }
+}
+
+.share-hashtag {
+  color: #8eab8e;
+}

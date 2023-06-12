@@ -1,0 +1,30 @@
+.grid {
+	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.cell {
+	width: 12%;
+}
+
+.item {
+	margin: 1.25rem 0;
+	max-width: 100%;
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@media (max-width: 399px) {
+	.cell {
+		width: 35%;
+	}
+}
+
+@media (max-width: 1000px) and (orientation:landscape) {
+	.cell {
+		width: 40%;
+	}
+}

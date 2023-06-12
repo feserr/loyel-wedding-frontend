@@ -1,0 +1,30 @@
+.location-grid {
+	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.location-cell {
+	width: 46%;
+}
+
+.location-item {
+	margin: 1.25rem 0;
+	max-width: 100%;
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@media (max-width: 399px) {
+	.location-cell {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px) and (orientation:landscape) {
+	.location-cell {
+		width: 100%;
+	}
+}
